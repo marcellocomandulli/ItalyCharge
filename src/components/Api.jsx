@@ -12,7 +12,7 @@ const Api = () => {
   const fetchStations = async (city) => {
     setLoading(true);
     setError("");
-    
+    setNoResults(false);
 
     try {
       const response = await axios.get("https://api.openchargemap.io/v3/poi/", {
