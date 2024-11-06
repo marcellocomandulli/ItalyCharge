@@ -12,6 +12,7 @@ const Api = () => {
   const fetchStations = async (city) => {
     setLoading(true);
     setError("");
+    
 
     try {
       const response = await axios.get("https://api.openchargemap.io/v3/poi/", {
@@ -43,7 +44,6 @@ const Api = () => {
     }
   };
 
-  console.log(stations)
   return (
     <div>
       <SearchBar onSearch={fetchStations} />
@@ -67,7 +67,6 @@ const Api = () => {
                 fill="currentFill"
               />
             </svg>
-            <span className="sr-only">Loading...</span>
           </div>
         )}
         {error && <p>{error}</p>}
