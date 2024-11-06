@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
 import "./input.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import AroundMe from "./components/AroundMe.jsx";
+import AroundMe from "./components/pages/views/features/AroundMe.jsx";
 import About from "./components/About.jsx";
 
 const router = createBrowserRouter([

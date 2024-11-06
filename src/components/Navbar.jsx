@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import About from "./About";
-import AroundMe from "./AroundMe";
+import AroundMe from "./pages/views/features/AroundMe";
 import { Link } from "react-router-dom";
 
 export default function Navbar() {
