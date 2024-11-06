@@ -16,7 +16,7 @@ const Api = () => {
     try {
       const response = await axios.get("https://api.openchargemap.io/v3/poi/", {
         params: {
-          key: "8e77f21c-dd6c-4768-b000-baf69b4277a4",
+          key: import.meta.env.VITE_API_KEY,
           output: "json",
           compact: true,
           verbose: false,
