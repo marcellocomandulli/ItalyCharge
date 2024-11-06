@@ -12,11 +12,11 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "/src/components/AroundMe.jsx",
+    path: "/aroundme",
     element: <AroundMe />,
   },
   {
-    path: "/src/components/About.jsx",
+    path: "/about",
     element: <About />,
   },
 ]);

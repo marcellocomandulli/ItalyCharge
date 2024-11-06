@@ -40,7 +40,7 @@ export default function Navbar() {
               </button>
             </Link>
 
-            <Link to={"/src/components/AroundMe.jsx"}>
+            <Link to={"/aroundme"}>
               <button className="bg-[#CBDA74] text-white rounded-full shadow-lg w-14 h-14 flex items-center justify-center my-2 transition duration-300 md:h-16 md:w-16">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -64,7 +64,7 @@ export default function Navbar() {
               </button>
             </Link>
 
-            <Link to={"/src/components/About.jsx"}>
+            <Link to={"/about"}>
               <button className="bg-[#CBDA74] text-white rounded-full shadow-lg w-14 h-14 flex items-center justify-center my-2 transition duration-300 md:h-16 md:w-16">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
