@@ -44,7 +44,6 @@ const Api = () => {
     }
   };
 
-  console.log(stations);
   return (
     <div>
       <SearchBar onSearch={fetchStations} />
