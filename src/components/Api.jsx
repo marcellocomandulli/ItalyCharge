@@ -43,7 +43,7 @@ const Api = () => {
     }
   };
 
-  console.log(stations)
+  console.log(stations);
   return (
     <div>
       <SearchBar onSearch={fetchStations} />
