@@ -11,16 +11,18 @@ export default function About() {
         <title>About - ItalyCharge</title>
       </Helmet>
 
-      <header className="h-24 flex justify-center items-center md:mb-10">
-        <h1 className="text-4xl font-semibold">ItalyCharge</h1>
+      <header className="flex justify-center">
+        <div className="h-20 w-3/5 flex justify-center items-center border-solid border-b-2  md:mb-10 md:border-none">
+          <h1 className="text-4xl font-semibold">ItalyCharge</h1>
+        </div>
       </header>
 
-      <div className="flex flex-col justify-around md:flex-row md:justify-center">
-        <div className="bg-white shadow-lg rounded-lg p-8 max-w-md w-full">
+      <div className="flex flex-col justify-center md:flex-row md:justify-around p-6">
+        <div className="bg-white shadow-lg rounded-lg p-8 max-w-md w-full mb-6">
           <h2 className="text-2xl text-center font-semibold mb-5">Chi siamo</h2>
           <p className="text-xl tracking-wide text-justify">
-            ItalyCharge è un'app che può aiutarti a pianificare il tuo viaggio.{" "}
-            <br></br>
+            ItalyCharge ti aiuta a pianificare al meglio il tuo viaggio.{" "}
+            <br></br><br></br>
             Gestisci in anticipo le stazioni di ricarica per la tua auto
             elettrica oppure per conoscere la posizione di quelle che ti
             circondano. <br></br> <br></br>Non rimarrai mai più senza carica.
