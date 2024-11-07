@@ -11,15 +11,16 @@ export default function About() {
         <title>About - ItalyCharge</title>
       </Helmet>
 
-      <header className="h-24 flex justify-center items-center mb-10">
+      <header className="h-24 flex justify-center items-center md:mb-10">
         <h1 className="text-4xl font-semibold">ItalyCharge</h1>
       </header>
 
-      <div className="flex justify-around">
+      <div className="flex flex-col justify-around md:flex-row md:justify-center">
         <div className="bg-white shadow-lg rounded-lg p-8 max-w-md w-full">
           <h2 className="text-2xl text-center font-semibold mb-5">Chi siamo</h2>
           <p className="text-xl tracking-wide text-justify">
-            ItalyCharge è un'app che può aiutarti a pianificare il tuo viaggio. <br></br>
+            ItalyCharge è un'app che può aiutarti a pianificare il tuo viaggio.{" "}
+            <br></br>
             Gestisci in anticipo le stazioni di ricarica per la tua auto
             elettrica oppure per conoscere la posizione di quelle che ti
             circondano. <br></br> <br></br>Non rimarrai mai più senza carica.
@@ -59,12 +60,14 @@ export default function About() {
               ></textarea>
             </div>
 
-            <button
-              type="submit"
-              className="w-full py-3 bg-[#CBDA74] text-white font-semibold rounded-lg shadow-md hover:bg-[#afbd63] transition duration-300"
-            >
-              Invia
-            </button>
+            <div className="flex justify-center">
+              <button
+                type="submit"
+                className="w-28 md:w-full py-3 bg-[#CBDA74] text-white font-semibold rounded-lg shadow-md hover:bg-[#afbd63] transition duration-300"
+              >
+                Invia
+              </button>
+            </div>
           </form>
         </div>
       </div>
