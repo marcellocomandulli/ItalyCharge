@@ -11,7 +11,7 @@ export default function AroundMe() {
       </Helmet>
 
       <iframe
-        src="https://map.openchargemap.io/?mode=embedded"
+        src="https://map.openchargemap.io/?mode=embedded&latitude=41.891776&longitude=12.489899"
         allow="geolocation"
         className="w-screen h-screen"
       ></iframe>

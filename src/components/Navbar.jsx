@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import About from "./About";
+import About from "./pages/views/features/About";
 import AroundMe from "./pages/views/features/AroundMe";
 import { Link } from "react-router-dom";
 
@@ -22,7 +22,7 @@ export default function Navbar() {
             }`}
           >
             <Link to={"/"}>
-              <button className="bg-[#CBDA74] text-white rounded-full shadow-lg w-14 h-14 flex items-center justify-center my-2 transition duration-300 md:h-16 md:w-16">
+              <button className="bg-[#CBDA74] hover:bg-[#afbd63] text-white rounded-full shadow-lg w-14 h-14 flex items-center justify-center my-2 transition duration-300 md:h-16 md:w-16">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -41,7 +41,7 @@ export default function Navbar() {
             </Link>
 
             <Link to={"/aroundme"}>
-              <button className="bg-[#CBDA74] text-white rounded-full shadow-lg w-14 h-14 flex items-center justify-center my-2 transition duration-300 md:h-16 md:w-16">
+              <button className="bg-[#CBDA74] hover:bg-[#afbd63] text-white rounded-full shadow-lg w-14 h-14 flex items-center justify-center my-2 transition duration-300 md:h-16 md:w-16">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -65,7 +65,7 @@ export default function Navbar() {
             </Link>
 
             <Link to={"/about"}>
-              <button className="bg-[#CBDA74] text-white rounded-full shadow-lg w-14 h-14 flex items-center justify-center my-2 transition duration-300 md:h-16 md:w-16">
+              <button className="bg-[#CBDA74] hover:bg-[#afbd63] text-white rounded-full shadow-lg w-14 h-14 flex items-center justify-center my-2 transition duration-300 md:h-16 md:w-16">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -87,7 +87,7 @@ export default function Navbar() {
 
         <button
           onClick={handleClick}
-          className="bg-[#CBDA74] flex justify-center items-center fixed bottom-0 right-0 mb-4 mr-4 text-white w-14 h-14 p-3 rounded-full shadow-lg md:h-16 md:w-16 transition"
+          className="bg-[#CBDA74] hover:bg-[#afbd63] flex justify-center items-center fixed bottom-0 right-0 mb-4 mr-4 text-white w-14 h-14 p-3 rounded-full shadow-lg md:h-16 md:w-16 transition"
         >
           {showButtons ? (
             <svg

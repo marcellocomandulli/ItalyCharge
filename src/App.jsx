@@ -10,7 +10,7 @@ function App() {
         <title>Home - ItalyCharge</title>
       </Helmet>
       <header className="h-24 flex justify-center items-center">
-        <h1 className="text-4xl">ItalyCharge</h1>
+        <h1 className="text-4xl font-semibold">ItalyCharge</h1>
       </header>
 
       <Api />

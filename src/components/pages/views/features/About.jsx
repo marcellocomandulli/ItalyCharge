@@ -1,6 +1,7 @@
 import React from "react";
-import Navbar from "./Navbar";
+import Navbar from "../../../Navbar";
 import { Helmet } from "react-helmet";
+import { Input } from "postcss";
 
 export default function About() {
   return (
@@ -9,21 +10,65 @@ export default function About() {
         <meta charSet="utf-8" />
         <title>About - ItalyCharge</title>
       </Helmet>
-      <h1>Ricarica Auto</h1>
 
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis natus
-        quaerat sed nisi necessitatibus officia quasi, dicta hic! Blanditiis
-        dolorum maxime ullam alias, cum autem dolores aperiam laudantium
-        repellat vitae fuga. Temporibus architecto inventore eum, corrupti
-        commodi incidunt corporis adipisci velit odio cum pariatur sunt magnam
-        ullam sit cumque ab nulla eius? Aut repellat dolorum vel asperiores
-        blanditiis possimus tenetur, sit nam ex placeat doloremque. Vel, quam.
-        Officiis neque atque earum laboriosam tempore, perferendis suscipit
-        dignissimos quasi iusto cumque quas quaerat ipsam excepturi aliquid
-        corrupti fugiat distinctio, eveniet soluta officia eos nemo sequi vitae
-        culpa dolore! Similique labore assumenda tempora?
-      </p>
+      <header className="h-24 flex justify-center items-center mb-10">
+        <h1 className="text-4xl font-semibold">ItalyCharge</h1>
+      </header>
+
+      <div className="flex justify-around">
+        <div className="bg-white shadow-lg rounded-lg p-8 max-w-md w-full">
+          <h2 className="text-2xl text-center font-semibold mb-5">Chi siamo</h2>
+          <p className="text-xl tracking-wide text-justify">
+            ItalyCharge è un'app che può aiutarti a pianificare il tuo viaggio. <br></br>
+            Gestisci in anticipo le stazioni di ricarica per la tua auto
+            elettrica oppure per conoscere la posizione di quelle che ti
+            circondano. <br></br> <br></br>Non rimarrai mai più senza carica.
+          </p>
+        </div>
+
+        <div className="bg-white shadow-lg rounded-lg p-8 max-w-md w-full">
+          <h2 className="text-2xl font-semibold text-gray-800 mb-6 text-center">
+            Contatti
+          </h2>
+
+          <form className="space-y-6">
+            <div>
+              <input
+                type="text"
+                id="name"
+                className="mt-1 p-3 w-full border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-[#e1f56d]"
+                placeholder="Nome"
+              />
+            </div>
+
+            <div>
+              <input
+                type="email"
+                id="email"
+                className="mt-1 p-3 w-full border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-[#e1f56d]"
+                placeholder="E-mail"
+              />
+            </div>
+
+            <div>
+              <textarea
+                id="message"
+                rows="4"
+                className="mt-1 p-3 w-full border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-[#e1f56d]"
+                placeholder="Scrivi il tuo messaggio..."
+              ></textarea>
+            </div>
+
+            <button
+              type="submit"
+              className="w-full py-3 bg-[#CBDA74] text-white font-semibold rounded-lg shadow-md hover:bg-[#afbd63] transition duration-300"
+            >
+              Invia
+            </button>
+          </form>
+        </div>
+      </div>
+
       <nav>
         <Navbar />
       </nav>
