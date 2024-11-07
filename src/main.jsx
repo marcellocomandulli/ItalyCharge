@@ -4,7 +4,7 @@ import App from "./App.jsx";
 import "./input.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import AroundMe from "./components/pages/views/features/AroundMe.jsx";
-import About from "./components/About.jsx";
+import About from "./components/pages/views/features/About.jsx";
 
 const router = createBrowserRouter([
   {
