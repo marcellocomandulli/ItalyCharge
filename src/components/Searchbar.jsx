@@ -20,7 +20,7 @@ const SearchBar = ({ onSearch }) => {
           type="text"
           value={city}
           onChange={(e) => setCity(e.target.value)}
-          className="rounded-full w-full py-4 pl-4 text-gray-700 bg-gray-100 focus:outline-none focus:ring-2 focus:ring-[#e1f56d] lg:text-sm text-xs"
+          className="rounded-full w-full py-4 pl-4 text-gray-700 bg-gray-100 focus:outline-none focus:ring-2 focus:ring-[#e1f56d] md:text-sm text-xs"
           placeholder="Cerca"
         />
         <button
