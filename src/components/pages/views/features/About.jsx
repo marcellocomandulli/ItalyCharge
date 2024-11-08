@@ -18,7 +18,7 @@ export default function About() {
       </header>
 
       <div className="flex flex-col justify-center md:flex-row md:justify-around p-6">
-        <div className="bg-white shadow-lg rounded-lg p-8 max-w-md w-full mb-10">
+        <div className="bg-white shadow-lg rounded-lg p-8 max-w-md w-full mb-10 border border-gray-200">
           <h2 className="text-2xl text-center font-semibold mb-5">Chi siamo</h2>
           <p className="text-xl tracking-wide text-justify">
             ItalyCharge ti aiuta a pianificare al meglio il tuo viaggio.{" "}
@@ -29,7 +29,7 @@ export default function About() {
           </p>
         </div>
 
-        <div className="bg-white shadow-lg rounded-lg p-8 max-w-md w-full mb-16">
+        <div className="bg-white shadow-lg rounded-lg p-8 max-w-md w-full mb-16 border border-gray-200">
           <h2 className="text-2xl font-semibold text-gray-800 mb-6 text-center">
             Contatti
           </h2>
