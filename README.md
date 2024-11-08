@@ -10,7 +10,7 @@ L'API che ho usato è [Open Charge Map](https://openchargemap.org/site/develop/a
 
 ## COME SI USA
 
-All'apertura c'è la barra di ricerca in cui digitare la città di cui si è interessati, dopodichè verranno visualizzate tutte le stazioni di ricarica disponibili per quella città insieme alla via, il prezzo se disponibile e un bottone che apre Google Maps per la navigazione diretta.
+All'apertura della Home c'è la barra di ricerca in cui digitare la città di cui si è interessati, dopodichè verranno visualizzate tutte le stazioni di ricarica disponibili per quella città insieme alla via, il prezzo se disponibile e un bottone che apre Google Maps per la navigazione diretta.
 
 Cliccando sul bottone verde in basso a destra compare un menù con 3 bottoni. La casa indica la Home, il logo della posizione indica la sezione AroundMe e il punto di domanda la sezione About.
 
